@@ -1,0 +1,191 @@
+body {
+	background: url('../img/bg.jpg') repeat-x;
+	font-family: Tahoma;
+	
+}
+.bg {
+	width: 1018px;
+	height: 990px;
+	margin: 0 auto;
+	background:  url('../img/bg_image.png') no-repeat 50% 50%;
+}
+.wrapper {
+	width: 1000px;
+	height: 1021px;
+	/*background-color:  white;*/
+	margin: 0 auto;
+	/*border-bottom:  3px sold black;*/
+	
+     /*HEADER*/
+}
+.header {
+	height: 164px;
+	display: flex;
+	padding-top: 10px;
+	padding-left: 28px;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.contact h5, a {
+	font-size: 12px;
+	color: #128aa7;
+}
+.contact a:hover {
+	text-decoration: underline;
+}
+.contact {
+	padding-left: 220px;
+	line-height: 15px;
+}
+.country_menu {
+	display: flex;
+	padding-top: 32px;
+}
+.country_menu a {
+	display: block;
+	padding-top: 45px;
+	padding-right: 10px;
+	padding-left: 3px;
+	margin-right: 5px;
+	text-decoration: underline;
+}
+.country_menu a:hover {
+	text-decoration: none;
+}
+ul.country_menu   li:nth-child(1)  a {
+	background: url('../img/india_flag.png') 30% 0 no-repeat;
+}
+ul.country_menu   li:nth-child(2)  a {
+	background: url('../img/nepal_flag.png') 35% 0 no-repeat;
+}
+ul.country_menu   li:nth-child(3)  a {
+	background: url('../img/tibet_flag.png') -10% 0 no-repeat;
+}
+ul.country_menu   li:nth-child(4)  a {
+	background: url('../img/butan_flag.png') 10% 0 no-repeat;
+}
+ul.country_menu   li:nth-child(5)  a {
+	background: url('../img/srilanka_flag.png') 45% 0 no-repeat;
+}
+ul.country_menu   li:nth-child(6)  a {
+	background: url('../img/maldivy_flag.png') 46% 0 no-repeat;
+}
+
+
+/*SLIDER */
+.slider {
+	border-top: 1px solid #128aa7;
+	border-bottom: 1px solid #128aa7;
+	height: 237px;
+}
+/*CONTENT*/
+.menu {
+	display: flex;
+	justify-content: space-around;
+	height: 30px;
+	background-color: #343434;
+	position: relative;
+	padding-right: 32px;
+	padding-left: 32px;
+	border-bottom: 1px solid black;
+	box-shadow:         0px 4px 10px 0px rgba(48, 48, 48, 0.75);
+	z-index: 2;
+
+}
+.triangle  {
+	background: url('../img/bg_triangle.png') 113% 56% no-repeat;
+}
+ul.menu > li > a {
+    font-size:  14px;
+    color: white;
+    display: block;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.submenu {
+	display: none;
+	position: absolute;
+	z-index: 2;
+	background-color: #343434;
+	top: 30px;
+	padding-bottom: 6px;
+	box-shadow:         0px 6px 18px 0px rgba(48, 48, 48, 0.75);
+}
+ul.submenu > li > a {
+    display: block;
+    padding: 5px 47px 5px 10px; 
+    color: white;
+    font-size: 14px;
+}
+ul.menu > li > a:hover {
+	text-decoration: underline;
+}
+ul.menu li:hover > .submenu {
+	display: block;
+}
+.submenu > li > a:hover {
+	text-decoration: underline;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	overflow: hidden;
+	margin-top: 2px;
+}
+.content a {
+	color: #424c43;
+	font-size: 14px;
+}
+.inform,
+.news {
+	width: 208px;
+	font-size: 14px;
+	line-height: 24px;
+	padding-top: 7px;
+	background-color: #edeef0;
+	border-left: 1px solid #c7cacf;
+	border-right: 1px solid #c7cacf;
+	padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+.inform a,
+.news a {
+	padding-left: 15px;
+}
+.content a:hover {
+	text-decoration: underline;
+}
+.inform  li {
+	border-bottom: 1px solid #c7cacf;
+}
+.content h4 {
+	color: #424c43;
+	font-size: 18px;
+	text-align: center;
+	padding-bottom: 6px;
+}
+.main {
+	width: auto;
+	padding-bottom: 20000px;
+    margin-bottom: -20000px;
+} 
+.footer {
+	font-size: 12px;
+	margin-top: 15px ;
+}
+.footer a {
+	color: white;
+	font-size: 12px;
+}
+p {
+	text-align: center;
+	color: white;
+	font-size: 12px;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
