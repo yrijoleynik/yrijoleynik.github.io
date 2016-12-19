@@ -1,0 +1,72 @@
+body {
+    font-family: Tahoma;
+    color: white;
+}
+.wrapper {
+    width: 960px;
+    height: 830px;
+    background: url("../img/background.jpg") no-repeat;
+    margin: 0 auto;
+}
+         /*HEADER*/
+.header {
+    margin-bottom: 6px;
+}
+.logo,
+.contacts {
+    display: inline-block;
+}
+.contacts {
+    padding-left: 460px;
+
+}
+.contacts h4 {
+    font-size: 10px;
+    font-weight: bold ;
+}
+.contacts p,
+.footer p {
+    font-size: 8px;
+}
+.contacts a,
+.footer a {
+    font-size: 8px;
+    color: white;
+}
+.contacts a:hover,
+.footer a:hover {
+    color: blanchedalmond;
+}
+        /*CONTENT*/
+.content,
+.header,
+.footer {
+    padding-left: 60px;
+}
+.country1,
+.country2,
+.country3,
+.country4,
+.country5,
+.country6 {
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 57px;
+}
+.content img {
+    border: 8px solid transparent;
+    border-image: url("../img/img_border.png") 8 stretch;
+}
+.content p {
+    font-size: 15px;
+    text-align: center;
+}
+.clearfix::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+        /*FOOTER*/
+.footer p {
+    padding-left: 360px;
+}
