@@ -10,6 +10,8 @@
 }
 body {
 	font-family: 'Helvetica Neue';
+	background: url('../img/bg.jpg') no-repeat;
+	background-size: cover;
 }
 .wrapper {
 	width: 1214px;
@@ -66,7 +68,8 @@ body {
 .main {
 	height: 817px;
 	padding-top: 213px;
-	background: url('../img/bg.jpg') no-repeat;
+	/*background: url('../img/bg.jpg') no-repeat;*/
+	/*background-size: cover;*/
 }
 .form {
 	width: 560px;
