@@ -12,12 +12,15 @@ body {
 	font-family: 'Helvetica Neue';
 	background: url('../img/bg.jpg') no-repeat;
 	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: auto;
 }
-.wrapper {
-	width: 1214px;
-	height: 1064px;
-	margin: 0 auto;
-}
+/*.wrapper {*/
+	/*width: 1214px;*/
+	/*height: 1064px;*/
+	/*margin: 0 auto;*/
+/*}*/
 .menu {
 	height: 34px;
 	background-color: #085596;
@@ -66,17 +69,20 @@ body {
 }
 
 .main {
-	height: 817px;
-	padding-top: 213px;
+	/*height: 817px;*/
+	padding-top: 130px;
 	/*background: url('../img/bg.jpg') no-repeat;*/
 	/*background-size: cover;*/
-}
+	display: flex;
+	justify-content: center;
+	}
 .form {
 	width: 560px;
 	height: 613px;
 	background-color: rgba(0, 0, 0, 0.5);
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	/*box-sizing: border-box;*/
+
 }
 .form h4 {
 	text-align: center;
