@@ -1,0 +1,765 @@
+    @font-face {
+        font-family: 'lucida Sans Unicode';
+        src: url('../fonts/lucida_sans_unicode_regular-webfont.eot');
+        src: url('../fonts/lucida_sans_unicode_regular-webfont.woff2') format('woff2'), url('../fonts/lucida_sans_unicode_regular-webfont.woff') format('woff'), url('../fonts/lucida_sans_unicode_regular-webfont.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    body {
+        font-family: 'lucida Sans Unicode', Arial;
+        /*background-color: gray; */
+    }
+
+    .wrapper {
+        width: 910px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .clearfix:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+    /* header */
+
+    header img:last-child {
+        margin-top: 4px;
+    }
+
+    .conteiner1 div {
+        display: inline-block;
+    }
+
+    .tel {
+        margin: 18px 0px 7px 6px;
+    }
+
+    .tel img {
+        margin-right: 5px;
+    }
+
+    .tel p {
+        margin-top: 2px;
+    }
+
+    .tel img, p {
+        display: inline-block;
+        vertical-align: top;
+        color: #5e696d;
+        font-size: 18px;
+        letter-spacing: -1.6px;
+    }
+
+    .password {
+        width: 495px;
+        height: 26px;
+        border-radius: 5px;
+        /*background-image: -moz-linear-gradient(top,#1f6787, #0c3357);*/
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#1f6787), to(#0c3357));
+        border: 1px solid #a6c3cf;
+        margin-left: 13px;
+        box-shadow: 2px 2px 2px 1px #b4b4b4;
+    }
+
+    .password img {
+        margin: 4px 3px 0px 6px;
+        float: left;
+    }
+
+    .password form {
+        margin: 3px 2px;
+    }
+
+    .password form a {
+        color: #ffffff;
+        font-size: 11px;
+        text-decoration: none;
+        vertical-align: 2px;
+    }
+
+    .password form a:last-child {
+        color: #bfbfbf;
+        font-size: 12px;
+        margin-left: 13px;
+        text-decoration: none;
+        border-bottom: 1px solid #bfbfbf;
+    }
+
+    .password form span {
+        color: #ffffff;
+    }
+
+    input[type="text"], input[type="password"] {
+        width: 110px;
+        height: 11px;
+        font-size: 10px;
+        text-indent: 2px;
+        vertical-align: top;
+        margin: 0px 1px 5px;
+    }
+
+    .password input[type="submit"] {
+        color: #ffffff;
+        font-size: 11px;
+        text-decoration: none;
+        font-style: normal;
+        vertical-align: 2px;
+        padding: 0px 1px;
+    }
+
+    .home {
+        width: 80px;
+        height: 22px;
+        border: 1px solid #bdc4c7;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 0px 7px;
+        margin-left: 10px;
+        vertical-align: 2px;
+        box-shadow: 1px 1px 1px 0px #b4b4b4;
+    }
+
+    .home img {
+        margin: 0px 2px;
+    }
+    /* header and */
+    /* nav */
+
+    nav {
+        width: 910px;
+        height: 32px;
+        margin: 6px 0px 0px;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#505860), to(#010101));
+        border: 1px solid #3c4367;
+        border-radius: 5px;
+        font-size: 14px;
+        box-shadow: 1px 1px 5px 1px #575861;
+    }
+
+    nav ul {
+        margin-right: 288px;
+    }
+
+    nav li a {
+        display: block;
+        float: right;
+        text-decoration: none;
+        padding: 8px 10px 0px 15px;
+        color: #b1bcc0;
+        text-transform: uppercase;
+    }
+
+    nav li a:hover {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#1f6787), to(#0d3458));
+        height: 17px;
+        border-radius: 20px;
+        color: #ffffff;
+        padding-bottom: 5px;
+    }
+
+    .pokupki {
+        float: right;
+        margin: 6px 9px 0px 0px;
+    }
+
+    .pokupki p, span {
+        display: inline-block;
+    }
+
+    .pokupki p {
+        color: #929b9f;
+        font-size: 11px;
+        margin: 0px 2px;
+    }
+
+    .pokupki span {
+        color: #0d5a8f;
+        font-size: 12px;
+    }
+    /* nav and */
+    /* aside */
+
+    aside div {
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        overflow: hidden;
+    }
+
+    .poiskavto {
+        width: 414px;
+        height: 143px;
+        border: 1px solid #c4c4c4;
+        border-radius: 17px;
+        background-clip: padding-box;
+        box-shadow: 2px 2px 2px 1px #999999;
+        margin: 10px 0px 0px 5px;
+        box-sizing: border-box;
+    }
+
+    .title {
+        color: #154467;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+
+    .poiskavto h2 {
+        margin-left: 10px;
+    }
+
+    .selectwrapper {
+        display: table;
+        width: 100%;
+        vertical-align: top;
+    }
+
+    .select-element {
+        display: table-cell;
+        width: 50%;
+        vertical-align: top;
+        position: relative;
+        padding-left: 15px;
+    }
+
+    .select-element:last-child {
+        padding-left: 15px;
+        width: 50%;
+    }
+
+    .select-element p {
+        margin: 0px;
+        margin-bottom: 3px;
+    }
+
+    .select-element span, .select-element select {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .select-element span {
+        font-size: 9px;
+        color: #77858b;
+        width: 64px;
+    }
+
+    .select-element b {
+        font-size: 10px;
+        color: #000000;
+        font-weight: bold;
+    }
+
+    .select-element select {
+        width: 103px;
+        height: 17px;
+        border-bottom: none;
+        margin-left: 6px;
+    }
+
+    .select-element .godvipuska {
+        width: 58px;
+    }
+
+    .h3diski {
+        color: #154468;
+        font-size: 10px;
+        font-weight: bold;
+        position: absolute;
+        top: 5px;
+        left: 18px;
+    }
+
+    .h3shini {
+        color: #154468;
+        font-size: 10px;
+        font-weight: bold;
+        position: absolute;
+        top: 3px;
+        left: 355px;
+    }
+
+    .poisk {
+        display: block;
+        text-align: right;
+        position: absolute;
+        right: 7px;
+    }
+
+    input[type="submit"] {
+        background: transparent;
+        border: 0px;
+        box-shadow: 0px;
+        text-decoration: underline;
+        color: #154467;
+        font-size: 14px;
+        font-style: italic;
+        font-family: Arial;
+        cursor: pointer;
+    }
+    /* poiskavto and */
+
+    .poiskshin {
+        width: 193px;
+        height: 143px;
+        border: 1px solid #c4c4c4;
+        border-radius: 17px;
+        background-clip: padding-box;
+        box-shadow: 2px 2px 2px 1px #999999;
+        margin: 10px 0px 0px 10px;
+        box-sizing: border-box;
+    }
+
+    .poiskshin .title {
+        text-align: left;
+        padding-left: 12px;
+    }
+
+    .shintable {
+        display: table;
+        width: 100%;
+        height: 100%;
+        vertical-align: top;
+        position: relative;
+        padding-left: 10px;
+        overflow: visible;
+    }
+
+    .shintable p {
+        margin: 0px;
+        margin-bottom: 3px;
+    }
+
+    .shintable span, .shintable select {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .shintable span {
+        font-family: 'Lucida Sans Unicode', arial;
+        font-size: 10px;
+        color: #000000;
+    }
+
+    .poiskshin select {
+        width: 50px;
+        height: 16px;
+        margin-left: 5px;
+    }
+
+    .shirina select {
+        width: 50px;
+    }
+
+    .visota select {
+        width: 60px;
+    }
+
+    .radius {
+        padding-left: 35px;
+    }
+
+    .radius select {
+        width: 40px;
+    }
+
+    .shintable label {
+        font-size: 12px;
+    }
+
+    .shintable input[type="checkbox"] {
+        margin-left: 12px;
+    }
+
+    .shintable input[type="checkbox"]:first-child {
+        margin-left: 51px;
+    }
+
+    .sezoni p {
+        margin-bottom: -2px;
+    }
+
+    .poiskshin .poisk {
+        position: absolute;
+        right: 17px;
+    }
+    /* poiskshin and */
+
+    .poiskdisk {
+        width: 267px;
+        height: 143px;
+        border: 1px solid #c4c4c4;
+        border-radius: 17px;
+        background-clip: padding-box;
+        padding-left: 15px;
+        box-shadow: 2px 2px 2px 1px #999999;
+        margin: 9px 0px 0px 6px;
+        box-sizing: border-box;
+    }
+
+    .poiskdisk h2 {
+        display: block;
+        width: 80px;
+        float: left;
+        text-align: left;
+        margin: 3px;
+    }
+
+    .diametr {
+        display: table-cell;
+        width: 65%;
+        vertical-align: top;
+        position: relative;
+    }
+
+    .diametr p {
+        margin-bottom: 3px;
+    }
+
+    .diametr span, .diametr select {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .diametr span {
+        font-size: 9px;
+        color: #77858b;
+        width: 64px;
+    }
+
+    .diametr b {
+        font-size: 10px;
+        color: #000000;
+    }
+
+    .diametr select {
+        width: 55px;
+        height: 15px;
+        border-bottom: none;
+        margin-left: 23px;
+        font-size: 11px;
+    }
+
+    .otv select {
+        width: 49px;
+    }
+
+    .dco {
+        display: table-cell;
+        width: 35%;
+        float: right;
+        vertical-align: top;
+        position: relative;
+        top: -100px;
+        border-left: 1px solid #bdc6ca;
+        padding-left: 10px;
+    }
+
+    .dco p {
+        margin-bottom: 5px;
+    }
+
+    .dco span, .dco select {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .dco span {
+        font-size: 8px;
+        color: #77858b;
+        width: 64px;
+        margin-left: 5px;
+    }
+
+    .dco b {
+        font-size: 9px;
+        color: #000000;
+    }
+
+    .dco select {
+        width: 70px;
+        height: 15px;
+        border-bottom: none;
+        margin: 3px 5px;
+        font-size: 11px;
+    }
+    /* poiskdisk and */
+    /* aside and */
+    /* section */
+
+    .sitebar-left {
+        width: 183px;
+        float: left;
+    }
+
+    .sitebar-left h1 {
+        width: 182px;
+        height: 24px;
+        font-size: 13px;
+        color: #114165;
+        border: 1px solid #91999d;
+        border-radius: 14px;
+        margin-top: 2px;
+    }
+
+    h1 {
+        box-shadow: 1px 1px 1px 1px #999999;
+    }
+
+    h1 img {
+        vertical-align: -7px;
+        margin: 1px 2px;
+    }
+
+    h4 {
+        width: 148px;
+        height: 27px;
+        font-size: 14px;
+        color: #114165;
+        border: 1px solid #79878d;
+        border-radius: 14px;
+        margin: 13px 0px 0px 1px;
+    }
+
+    h4 img {
+        vertical-align: -6px;
+        margin: 1px 3px 0px 3px;
+    }
+
+    .diski-img {
+        width: 147px;
+        height: 26px;
+        margin: -2px 0px 0px 2px;
+    }
+
+    .diski-img img {
+        margin-right: 2px;
+    }
+
+    .bolti-img {
+        height: 26px;
+        margin: -2px 0px;
+    }
+
+    .sitebar-left ul {
+        list-style-image: url(../img/spisok.png);
+        list-style-type: disc;
+        margin: -3px 0px 0px 51px;
+        line-height: 25px;
+    }
+
+    .sitebar-left ul a {
+        color: #465961;
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+    .sitebar-left li a:hover {
+        color: #0c3256;
+        font-family: Arial;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .sitebar-left ul li:hover {
+        list-style-image: url(../img/spisok2.png);
+    }
+
+    .content {
+        width: 525px;
+        height: 628px;
+        margin: 18px auto;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#e5e7e8), to(#93a7b0));
+        border-radius: 5px;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+
+    .content div {
+        display: inline-block;
+    }
+
+    .sitebar-right {
+        width: 183px;
+        float: right;
+        position: relative;
+    }
+
+    .sitebar-right h1 {
+        width: 180px;
+        height: 24px;
+        font-size: 14px;
+        color: #0c3256;
+        border: 1px solid #91999d;
+        border-radius: 14px;
+    }
+
+    .kartinka-katalog {
+        width: 23px;
+        height: 22px;
+        margin: 0px 0px 0px 2px;
+    }
+
+    .sitebar-right h4 {
+        width: 134px;
+        height: 26px;
+        font-size: 14px;
+        color: #0c3256;
+        border: 1px solid #91999d;
+        border-radius: 14px;
+        margin: 13px 0px 5px 15px;
+    }
+
+    .sitebar-right label {
+        font-size: 12px;
+        color: #465961;
+        vertical-align: 2px;
+    }
+
+    .sitebar-right p {
+        margin-left: 20px;
+        line-height: 24px;
+    }
+
+    .sitebar-right p:first-child {
+        margin-top: 14px;
+    }
+
+    .sitebar-right .diskih4 {
+        height: 25px;
+        margin: 8px 0px 4px 14px;
+    }
+
+    .diskih4 img {
+        margin: 0px 3px 0px 2px;
+    }
+
+    .sitebar-right input[type="submit"] {
+        width: 80px;
+        height: 26px;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#1f6787), to(#0c3357));
+        border-radius: 14px;
+        font-size: 11px;
+        color: #e5e9ea;
+        text-decoration: none;
+        font-style: normal;
+        position: absolute;
+        top: 275px;
+        right: 80px;
+        letter-spacing: 0.9px;
+        padding-left: 8px;
+        box-shadow: 1px 1px 2px 1px #999999;
+    }
+
+    .tovar {
+        width: 137px;
+        height: 183px;
+        text-align: center;
+        margin: 13px 13px;
+    }
+
+    .tovar p {
+        font-size: 14px;
+        color: #206988;
+        font-weight: bold;
+        margin-left: 1px;
+    }
+
+    .tovar span {
+        font-size: 12px;
+        color: #1f2528;
+        margin: 0px 0px 2px 4px;
+    }
+
+    .tovar p:last-child {
+        font-family: Arial;
+        font-size: 16px;
+        color: #114165;
+        font-style: italic;
+        font-weight: bold;
+        margin: 2px 0px 0px 15px;
+    }
+
+    .tovar2 {
+        margin: 4px 13px 0px 13px;
+    }
+
+    .tovar b {
+        font-size: 14px;
+    }
+
+    .tovar3 {
+        margin: 22px 13px 0px 13px;
+    }
+
+    .foto-tovar {
+        width: 135px;
+        height: 127px;
+        background-color: #ffffff;
+        border: 1px solid #a4aeb1;
+        border-radius: 10px;
+        margin-bottom: 1px;
+    }
+
+    .foto-tovar img {
+        margin: 4px 0px 0px -3px;
+    }
+    /* section and */
+
+    .brandlogo {
+        margin: 40px 0px 20px 110px;
+    }
+
+    .brandlogo img {
+        vertical-align: top;
+    }
+
+    .brandlogo a {
+        margin: 5px;
+    }
+    /* footer */
+
+    footer {
+        width: 910px;
+        height: 100px;
+        background-color: #213a4d;
+        box-sizing: border-box;
+        padding-top: 5px;
+    }
+
+    footer ul {
+        display: block;
+        margin: 3px 0px 0px 310px;
+    }
+
+    footer ul li {
+        display: inline-block;
+        margin: 0px 5px;
+    }
+
+    footer li a {
+        font-family: Arial;
+        font-size: 12px;
+        color: #bec6c9;
+        text-decoration: none;
+    }
+
+    footer li a:hover {
+        color: #52abcb;
+    }
+
+    footer span {
+        font-size: 12px;
+        color: #bec6c9;
+    }
+
+    footer p {
+        margin: 17px 370px;
+        font-family: Arial;
+        font-size: 10px;
+        color: #7f4740;
+    }
